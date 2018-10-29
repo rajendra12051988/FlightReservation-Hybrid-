@@ -1,0 +1,64 @@
+08/08/2018 12:40:37 devpinoyLogger Launching Application : http://newtours.demoaut.com
+08/08/2018 12:40:44 devpinoyLogger Launched Application : http://newtours.demoaut.com
+08/08/2018 12:40:49 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
+08/08/2018 12:40:50 devpinoyLogger Entered'mercury' in the 'UserName' edit field
+08/08/2018 12:40:50 devpinoyLogger Entering 'mercury' in the 'Password' edit field
+08/08/2018 12:40:50 devpinoyLogger Entered'mercury' in the 'Password' edit field
+08/08/2018 12:40:50 devpinoyLogger Clicking on 'Sign-On'
+08/08/2018 12:41:05 devpinoyLogger Clicked on 'Sign-On'
+08/08/2018 12:41:06 devpinoyLogger Clicking on 'One Way'
+08/08/2018 12:41:06 devpinoyLogger Clicked on 'One Way'
+08/08/2018 12:41:06 devpinoyLogger Selecting 'London' from 'Departure From' dropdown
+08/08/2018 12:41:07 devpinoyLogger Selected'London' from 'Departure From' dropdown
+08/08/2018 12:41:07 devpinoyLogger Selecting 'Paris' from 'Arrival To' dropdown
+08/08/2018 12:41:07 devpinoyLogger Selected'Paris' from 'Arrival To' dropdown
+08/08/2018 12:41:07 devpinoyLogger Clicking on 'Class Preference'
+08/08/2018 12:41:07 devpinoyLogger Clicked on 'Class Preference'
+08/08/2018 12:41:07 devpinoyLogger Selecting 'Blue Skies Airlines' from 'Airline Preference' dropdown
+08/08/2018 12:41:07 devpinoyLogger Selected'Blue Skies Airlines' from 'Airline Preference' dropdown
+08/08/2018 12:41:07 devpinoyLogger Clicking on 'Find Flights'
+08/08/2018 12:41:09 devpinoyLogger Clicked on 'Find Flights'
+08/08/2018 12:41:09 devpinoyLogger Clicking on 'Reserve Flights'
+08/08/2018 12:41:11 devpinoyLogger Clicked on 'Reserve Flights'
+08/08/2018 12:41:11 devpinoyLogger Entering 'Rajendra' in the 'First Name' edit field
+08/08/2018 12:41:11 devpinoyLogger Entered'Rajendra' in the 'First Name' edit field
+08/08/2018 12:41:11 devpinoyLogger Entering 'Mahapatra' in the 'Last Name' edit field
+08/08/2018 12:41:12 devpinoyLogger Entered'Mahapatra' in the 'Last Name' edit field
+08/08/2018 12:41:12 devpinoyLogger Entering '23878645' in the 'Credit Number' edit field
+08/08/2018 12:41:12 devpinoyLogger Entered'23878645' in the 'Credit Number' edit field
+08/08/2018 12:41:12 devpinoyLogger Clicking on 'Buy Flights'
+08/08/2018 12:41:16 devpinoyLogger Clicked on 'Buy Flights'
+08/08/2018 12:41:16 devpinoyLogger Verifying text 'itinerary has been booked!' on web page...
+08/08/2018 12:41:16 devpinoyLogger Verified text 'itinerary has been booked!' on web page...
+08/08/2018 12:41:54 devpinoyLogger Launching Application : http://newtours.demoaut.com
+08/08/2018 12:42:01 devpinoyLogger Launched Application : http://newtours.demoaut.com
+08/08/2018 12:42:02 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
+08/08/2018 12:42:04 devpinoyLogger Entered'mercury' in the 'UserName' edit field
+08/08/2018 12:42:04 devpinoyLogger Entering 'mercury' in the 'Password' edit field
+08/08/2018 12:42:05 devpinoyLogger Entered'mercury' in the 'Password' edit field
+08/08/2018 12:42:05 devpinoyLogger Clicking on 'Sign-On'
+08/08/2018 12:42:12 devpinoyLogger Clicked on 'Sign-On'
+08/08/2018 12:42:12 devpinoyLogger Clicking on 'One Way'
+08/08/2018 12:42:17 devpinoyLogger Clicked on 'One Way'
+08/08/2018 12:42:17 devpinoyLogger Selecting 'London' from 'Departure From' dropdown
+08/08/2018 12:42:18 devpinoyLogger Selected'London' from 'Departure From' dropdown
+08/08/2018 12:42:18 devpinoyLogger Selecting 'Paris' from 'Arrival To' dropdown
+08/08/2018 12:42:18 devpinoyLogger Selected'Paris' from 'Arrival To' dropdown
+08/08/2018 12:42:18 devpinoyLogger Clicking on 'Class Preference'
+08/08/2018 12:42:18 devpinoyLogger Clicked on 'Class Preference'
+08/08/2018 12:42:18 devpinoyLogger Selecting 'Blue Skies Airlines' from 'Airline Preference' dropdown
+08/08/2018 12:42:19 devpinoyLogger Selected'Blue Skies Airlines' from 'Airline Preference' dropdown
+08/08/2018 12:42:19 devpinoyLogger Clicking on 'Find Flights'
+08/08/2018 12:42:20 devpinoyLogger Clicked on 'Find Flights'
+08/08/2018 12:42:20 devpinoyLogger Clicking on 'Reserve Flights'
+08/08/2018 12:42:22 devpinoyLogger Clicked on 'Reserve Flights'
+08/08/2018 12:42:22 devpinoyLogger Entering 'Rajendra' in the 'First Name' edit field
+08/08/2018 12:42:22 devpinoyLogger Entered'Rajendra' in the 'First Name' edit field
+08/08/2018 12:42:22 devpinoyLogger Entering 'Mahapatra' in the 'Last Name' edit field
+08/08/2018 12:42:23 devpinoyLogger Entered'Mahapatra' in the 'Last Name' edit field
+08/08/2018 12:42:23 devpinoyLogger Entering '23878645' in the 'Credit Number' edit field
+08/08/2018 12:42:23 devpinoyLogger Entered'23878645' in the 'Credit Number' edit field
+08/08/2018 12:42:23 devpinoyLogger Clicking on 'Buy Flights'
+08/08/2018 12:42:24 devpinoyLogger Clicked on 'Buy Flights'
+08/08/2018 12:42:24 devpinoyLogger Verifying text 'itinerary has been booked!' on web page...
+08/08/2018 12:42:24 devpinoyLogger Verified text 'itinerary has been booked!' on web page...

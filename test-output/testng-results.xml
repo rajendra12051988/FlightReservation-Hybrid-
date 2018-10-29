@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="3" ignored="0" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="130181" started-at="2018-08-08T07:10:15Z" finished-at="2018-08-08T07:12:25Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="64128" started-at="2018-08-08T07:10:15Z" finished-at="2018-08-08T07:11:19Z">
+      <class name="testcases.executeTestThroughTestNg">
+        <test-method status="PASS" signature="setUP(java.lang.String)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="setUP" is-config="true" duration-ms="19676" started-at="2018-08-08T07:10:15Z" finished-at="2018-08-08T07:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="startTestCase" is-config="true" duration-ms="11" started-at="2018-08-08T07:10:34Z" finished-at="2018-08-08T07:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testInvokeApplication() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="testInvokeApplication()[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="testInvokeApplication" duration-ms="9992" started-at="2018-08-08T07:10:34Z" finished-at="2018-08-08T07:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvokeApplication -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="generateReport" is-config="true" duration-ms="4777" started-at="2018-08-08T07:10:44Z" finished-at="2018-08-08T07:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvokeApplication status=SUCCESS method=executeTestThroughTestNg.testInvokeApplication()[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="startTestCase" is-config="true" duration-ms="1" started-at="2018-08-08T07:10:49Z" finished-at="2018-08-08T07:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testLogin() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="testLogin" duration-ms="15747" started-at="2018-08-08T07:10:49Z" finished-at="2018-08-08T07:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="generateReport" is-config="true" duration-ms="484" started-at="2018-08-08T07:11:05Z" finished-at="2018-08-08T07:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=executeTestThroughTestNg.testLogin()[pri:1, instance:testcases.executeTestThroughTestNg@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="startTestCase" is-config="true" duration-ms="1" started-at="2018-08-08T07:11:05Z" finished-at="2018-08-08T07:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testBookATicket() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="testBookATicket()[pri:2, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="testBookATicket" duration-ms="10632" started-at="2018-08-08T07:11:05Z" finished-at="2018-08-08T07:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookATicket -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="generateReport" is-config="true" duration-ms="520" started-at="2018-08-08T07:11:16Z" finished-at="2018-08-08T07:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBookATicket status=SUCCESS method=executeTestThroughTestNg.testBookATicket()[pri:2, instance:testcases.executeTestThroughTestNg@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-08-08T07:11:17Z" finished-at="2018-08-08T07:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testFail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="FAIL" signature="testFail()[pri:3, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="testFail" duration-ms="15" started-at="2018-08-08T07:11:17Z" finished-at="2018-08-08T07:11:17Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at testcases.executeTestThroughTestNg.testFail(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFail -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="generateReport" is-config="true" duration-ms="513" started-at="2018-08-08T07:11:17Z" finished-at="2018-08-08T07:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFail status=FAILURE method=executeTestThroughTestNg.testFail()[pri:3, instance:testcases.executeTestThroughTestNg@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="startTestCase" is-config="true" duration-ms="1" started-at="2018-08-08T07:11:17Z" finished-at="2018-08-08T07:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testSKip()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="generateReport" is-config="true" duration-ms="2" started-at="2018-08-08T07:11:17Z" finished-at="2018-08-08T07:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSKip status=SKIP method=executeTestThroughTestNg.testSKip()[pri:4, instance:testcases.executeTestThroughTestNg@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="SKIP" signature="testSKip()[pri:4, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="testSKip" duration-ms="0" started-at="2018-08-08T07:11:17Z" finished-at="2018-08-08T07:11:17Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This method is not ready to be executed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This method is not ready to be executed
+at testcases.executeTestThroughTestNg.testSKip(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSKip -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.executeTestThroughTestNg@4f7d0008]" name="tearDown" is-config="true" duration-ms="1515" started-at="2018-08-08T07:11:17Z" finished-at="2018-08-08T07:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.executeTestThroughTestNg -->
+    </test> <!-- chromeTest -->
+    <test name="firefoxTest" duration-ms="65983" started-at="2018-08-08T07:11:19Z" finished-at="2018-08-08T07:12:25Z">
+      <class name="testcases.executeTestThroughTestNg">
+        <test-method status="PASS" signature="setUP(java.lang.String)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="setUP" is-config="true" duration-ms="35304" started-at="2018-08-08T07:11:19Z" finished-at="2018-08-08T07:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="startTestCase" is-config="true" duration-ms="1" started-at="2018-08-08T07:11:54Z" finished-at="2018-08-08T07:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testInvokeApplication() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="testInvokeApplication()[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="testInvokeApplication" duration-ms="7338" started-at="2018-08-08T07:11:54Z" finished-at="2018-08-08T07:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvokeApplication -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="generateReport" is-config="true" duration-ms="255" started-at="2018-08-08T07:12:01Z" finished-at="2018-08-08T07:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvokeApplication status=SUCCESS method=executeTestThroughTestNg.testInvokeApplication()[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-08-08T07:12:02Z" finished-at="2018-08-08T07:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testLogin() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="FAIL" signature="testLogin()[pri:1, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="testLogin" duration-ms="10209" started-at="2018-08-08T07:12:02Z" finished-at="2018-08-08T07:12:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at operation.UIOperation.assertPageTitle(Unknown Source)
+at testcases.executeTestThroughTestNg.testLogin(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="generateReport" is-config="true" duration-ms="235" started-at="2018-08-08T07:12:12Z" finished-at="2018-08-08T07:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=FAILURE method=executeTestThroughTestNg.testLogin()[pri:1, instance:testcases.executeTestThroughTestNg@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-08-08T07:12:12Z" finished-at="2018-08-08T07:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testBookATicket() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="testBookATicket()[pri:2, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="testBookATicket" duration-ms="11881" started-at="2018-08-08T07:12:12Z" finished-at="2018-08-08T07:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookATicket -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="generateReport" is-config="true" duration-ms="155" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBookATicket status=SUCCESS method=executeTestThroughTestNg.testBookATicket()[pri:2, instance:testcases.executeTestThroughTestNg@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="FAIL" signature="testFail()[pri:3, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="testFail" duration-ms="0" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:24Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at testcases.executeTestThroughTestNg.testFail(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFail -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="generateReport" is-config="true" duration-ms="116" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFail status=FAILURE method=executeTestThroughTestNg.testFail()[pri:3, instance:testcases.executeTestThroughTestNg@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testFail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.executeTestThroughTestNg.testSKip()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="SKIP" signature="testSKip()[pri:4, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="testSKip" duration-ms="0" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:24Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This method is not ready to be executed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This method is not ready to be executed
+at testcases.executeTestThroughTestNg.testSKip(Unknown Source)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSKip -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="generateReport" is-config="true" duration-ms="0" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSKip status=SKIP method=executeTestThroughTestNg.testSKip()[pri:4, instance:testcases.executeTestThroughTestNg@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.executeTestThroughTestNg@5702b3b1]" name="tearDown" is-config="true" duration-ms="480" started-at="2018-08-08T07:12:24Z" finished-at="2018-08-08T07:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.executeTestThroughTestNg -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
