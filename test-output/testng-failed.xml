@@ -27,6 +27,7 @@
           <include name="setUP"/>
           <include name="testFail"/>
           <include name="tearDown"/>
+          <include name="testBookATicket"/>
           <include name="startTestCase"/>
         </methods>
       </class> <!-- testcases.executeTestThroughTestNg -->

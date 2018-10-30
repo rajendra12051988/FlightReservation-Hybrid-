@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 3 failed,  2 skipped,  5 passed</span>
+                    <span class="method-stats">10 methods, 4 failed,  2 skipped,  4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.executeTestThroughTestNg" hash-for-method="testBookATicket">testBookATicket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.executeTestThroughTestNg" hash-for-method="testFail">testFail</a> <!-- method navigator-link -->
@@ -150,11 +155,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.executeTestThroughTestNg" hash-for-method="testBookATicket">testBookATicket</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.executeTestThroughTestNg" hash-for-method="testInvokeApplication">testInvokeApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -188,6 +188,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="testBookATicket">
+                  </a> <!-- testBookATicket -->
+                  <span class="method-name">testBookATicket</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at operation.UIOperation.verifyTextOnWebPage(UIOperation.java:101)
+	at testcases.executeTestThroughTestNg.testBookATicket(executeTestThroughTestNg.java:171)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testFail">
                   </a> <!-- testFail -->
                   <span class="method-name">testFail</span>
@@ -195,7 +207,7 @@
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at testcases.executeTestThroughTestNg.testFail(Unknown Source)
+	at testcases.executeTestThroughTestNg.testFail(executeTestThroughTestNg.java:180)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -209,7 +221,7 @@
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at testcases.executeTestThroughTestNg.testFail(Unknown Source)
+	at testcases.executeTestThroughTestNg.testFail(executeTestThroughTestNg.java:180)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -220,8 +232,8 @@
                   </a> <!-- testLogin -->
                   <span class="method-name">testLogin</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at operation.UIOperation.assertPageTitle(Unknown Source)
-	at testcases.executeTestThroughTestNg.testLogin(Unknown Source)
+	at operation.UIOperation.assertPageTitle(UIOperation.java:38)
+	at testcases.executeTestThroughTestNg.testLogin(executeTestThroughTestNg.java:132)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -240,7 +252,7 @@
                   </a> <!-- testSKip -->
                   <span class="method-name">testSKip</span>
                   <div class="stack-trace">org.testng.SkipException: This method is not ready to be executed
-	at testcases.executeTestThroughTestNg.testSKip(Unknown Source)
+	at testcases.executeTestThroughTestNg.testSKip(executeTestThroughTestNg.java:186)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -251,7 +263,7 @@
                   </a> <!-- testSKip -->
                   <span class="method-name">testSKip</span>
                   <div class="stack-trace">org.testng.SkipException: This method is not ready to be executed
-	at testcases.executeTestThroughTestNg.testSKip(Unknown Source)
+	at testcases.executeTestThroughTestNg.testSKip(executeTestThroughTestNg.java:186)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -264,13 +276,6 @@
               <span class="class-name">testcases.executeTestThroughTestNg</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testBookATicket">
-                  </a> <!-- testBookATicket -->
-                  <span class="method-name">testBookATicket</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testBookATicket">
@@ -365,33 +370,33 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLogin')
+data.setCell(0, 1, 'testBookATicket')
 data.setCell(0, 2, 'testcases.executeTestThroughTestNg')
-data.setCell(0, 3, 15747);
+data.setCell(0, 3, 330838);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testBookATicket')
+data.setCell(1, 1, 'testLogin')
 data.setCell(1, 2, 'testcases.executeTestThroughTestNg')
-data.setCell(1, 3, 11881);
+data.setCell(1, 3, 179951);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testBookATicket')
+data.setCell(2, 1, 'testInvokeApplication')
 data.setCell(2, 2, 'testcases.executeTestThroughTestNg')
-data.setCell(2, 3, 10632);
+data.setCell(2, 3, 8980);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testLogin')
 data.setCell(3, 2, 'testcases.executeTestThroughTestNg')
-data.setCell(3, 3, 10209);
+data.setCell(3, 3, 6928);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testInvokeApplication')
+data.setCell(4, 1, 'testBookATicket')
 data.setCell(4, 2, 'testcases.executeTestThroughTestNg')
-data.setCell(4, 3, 9992);
+data.setCell(4, 3, 6055);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testInvokeApplication')
 data.setCell(5, 2, 'testcases.executeTestThroughTestNg')
-data.setCell(5, 3, 7338);
+data.setCell(5, 3, 2910);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testFail')
 data.setCell(6, 2, 'testcases.executeTestThroughTestNg')
-data.setCell(6, 3, 15);
+data.setCell(6, 3, 4);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testSKip')
 data.setCell(7, 2, 'testcases.executeTestThroughTestNg')
@@ -408,7 +413,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -441,141 +446,143 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testInvokeApplication() throws java.io.IOException)</span>
-                <span class="method-start">19899 ms</span>
+                <span class="method-start">8513 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testInvokeApplication</span>
-                <span class="method-start">19910 ms</span>
+                <span class="method-start">8528 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testInvokeApplication status=SUCCESS method=executeTestThroughTestNg.testInvokeAppl...)</span>
-                <span class="method-start">29906 ms</span>
+                <span class="method-start">17510 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testLogin() throws java.io.IOException)</span>
-                <span class="method-start">34688 ms</span>
+                <span class="method-start">18766 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">34689 ms</span>
+                <span class="method-start">18766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testLogin status=SUCCESS method=executeTestThroughTestNg.testLogin()[pri:1, instanc...)</span>
-                <span class="method-start">50437 ms</span>
+                <span class="method-start">198717 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testBookATicket() throws java.io.IOException)</span>
-                <span class="method-start">50923 ms</span>
+                <span class="method-start">199065 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testBookATicket</span>
-                <span class="method-start">50924 ms</span>
+                <span class="method-start">199065 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testBookATicket status=SUCCESS method=executeTestThroughTestNg.testBookATicket()[pr...)</span>
-                <span class="method-start">61557 ms</span>
+                <span class="method-start">205120 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testFail())</span>
-                <span class="method-start">62078 ms</span>
+                <span class="method-start">205480 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFail</span>
-                <span class="method-start">62079 ms</span>
+                <span class="method-start">205481 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testFail status=FAILURE method=executeTestThroughTestNg.testFail()[pri:3, instance:...)</span>
-                <span class="method-start">62095 ms</span>
+                <span class="method-start">205485 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testSKip())</span>
-                <span class="method-start">62609 ms</span>
+                <span class="method-start">205846 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSKip</span>
-                <span class="method-start">62610 ms</span>
+                <span class="method-start">205846 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testSKip status=SKIP method=executeTestThroughTestNg.testSKip()[pri:4, instance:tes...)</span>
-                <span class="method-start">62610 ms</span>
+                <span class="method-start">205846 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62612 ms</span>
+                <span class="method-start">205846 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setUP(firefox)</span>
-                <span class="method-start">64197 ms</span>
+                <span class="method-start">207134 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testInvokeApplication() throws java.io.IOException)</span>
-                <span class="method-start">99502 ms</span>
+                <span class="method-start">217099 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testInvokeApplication</span>
-                <span class="method-start">99503 ms</span>
+                <span class="method-start">217099 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testInvokeApplication status=SUCCESS method=executeTestThroughTestNg.testInvokeAppl...)</span>
-                <span class="method-start">106842 ms</span>
+                <span class="method-start">220009 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testLogin() throws java.io.IOException)</span>
-                <span class="method-start">107098 ms</span>
+                <span class="method-start">220165 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLogin</span>
-                <span class="method-start">107098 ms</span>
+                <span class="method-start">220165 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testLogin status=FAILURE method=executeTestThroughTestNg.testLogin()[pri:1, instanc...)</span>
-                <span class="method-start">117308 ms</span>
+                <span class="method-start">227097 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testBookATicket() throws java.io.IOException)</span>
-                <span class="method-start">117544 ms</span>
+                <span class="method-start">227222 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testBookATicket</span>
-                <span class="method-start">117544 ms</span>
+                <span class="method-start">227222 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">generateReport([TestResult name=testBookATicket status=SUCCESS method=executeTestThroughTestNg.testBookATicket()[pr...)</span>
-                <span class="method-start">129426 ms</span>
+                <span class="method-name">generateReport([TestResult name=testBookATicket status=FAILURE method=executeTestThroughTestNg.testBookATicket()[pr...)</span>
+                <span class="method-start">558060 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testFail())</span>
-                <span class="method-start">129582 ms</span>
+                <span class="method-start">558232 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFail</span>
-                <span class="method-start">129582 ms</span>
+                <span class="method-start">558232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testFail status=FAILURE method=executeTestThroughTestNg.testFail()[pri:3, instance:...)</span>
-                <span class="method-start">129582 ms</span>
+                <span class="method-start">558232 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTestCase(public void testcases.executeTestThroughTestNg.testSKip())</span>
-                <span class="method-start">129699 ms</span>
+                <span class="method-start">558341 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSKip</span>
-                <span class="method-start">129699 ms</span>
+                <span class="method-start">558341 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">generateReport([TestResult name=testSKip status=SKIP method=executeTestThroughTestNg.testSKip()[pri:4, instance:tes...)</span>
-                <span class="method-start">129700 ms</span>
+                <span class="method-start">558341 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">129700 ms</span>
+                <span class="method-start">558341 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

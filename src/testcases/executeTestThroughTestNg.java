@@ -174,23 +174,7 @@ public class  executeTestThroughTestNg {
     	
     }
     
-   @Test(priority=3)
-    public void testFail(){
-    	//extentLogger = extent.createTest("testFail");
-    	Assert.assertTrue(false);
-    }
-    
-    @Test(priority=4)
-    public void testSKip(){
-    	//extentLogger = extent.createTest("testSkip");
-    	throw new SkipException("This method is not ready to be executed");
-    }
-    
-   /* @BeforeMethod
-    public String getName(){
-    	return new Object(){}.getClass().getEnclosingMethod().getName();
-    }
-*/    
+  
     @AfterMethod
     public void generateReport(ITestResult result) throws IOException{
     	if(result.getStatus() == ITestResult.FAILURE){
