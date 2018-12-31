@@ -1,140 +1,64 @@
-29/10/2018 12:32:55 devpinoyLogger Launching Application : http://newtours.demoaut.com
-29/10/2018 12:32:59 devpinoyLogger Launched Application : http://newtours.demoaut.com
-29/10/2018 12:33:01 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
-29/10/2018 12:33:01 devpinoyLogger Entered'mercury' in the 'UserName' edit field
-29/10/2018 12:33:01 devpinoyLogger Entering 'mercury' in the 'Password' edit field
-29/10/2018 12:33:01 devpinoyLogger Entered'mercury' in the 'Password' edit field
-29/10/2018 12:33:01 devpinoyLogger Clicking on 'Sign-On'
-29/10/2018 12:36:01 devpinoyLogger Clicked on 'Sign-On'
-29/10/2018 12:36:01 devpinoyLogger Clicking on 'One Way'
-29/10/2018 12:36:01 devpinoyLogger Clicked on 'One Way'
-29/10/2018 12:36:01 devpinoyLogger Selecting 'London' from 'Departure From' dropdown
-29/10/2018 12:36:02 devpinoyLogger Selected'London' from 'Departure From' dropdown
-29/10/2018 12:36:02 devpinoyLogger Selecting 'Paris' from 'Arrival To' dropdown
-29/10/2018 12:36:02 devpinoyLogger Selected'Paris' from 'Arrival To' dropdown
-29/10/2018 12:36:02 devpinoyLogger Clicking on 'Class Preference'
-29/10/2018 12:36:02 devpinoyLogger Clicked on 'Class Preference'
-29/10/2018 12:36:02 devpinoyLogger Selecting 'Blue Skies Airlines' from 'Airline Preference' dropdown
-29/10/2018 12:36:02 devpinoyLogger Selected'Blue Skies Airlines' from 'Airline Preference' dropdown
-29/10/2018 12:36:02 devpinoyLogger Clicking on 'Find Flights'
-29/10/2018 12:36:03 devpinoyLogger Clicked on 'Find Flights'
-29/10/2018 12:36:03 devpinoyLogger Clicking on 'Reserve Flights'
-29/10/2018 12:36:05 devpinoyLogger Clicked on 'Reserve Flights'
-29/10/2018 12:36:05 devpinoyLogger Entering 'Rajendra' in the 'First Name' edit field
-29/10/2018 12:36:05 devpinoyLogger Entered'Rajendra' in the 'First Name' edit field
-29/10/2018 12:36:05 devpinoyLogger Entering 'Mahapatra' in the 'Last Name' edit field
-29/10/2018 12:36:05 devpinoyLogger Entered'Mahapatra' in the 'Last Name' edit field
-29/10/2018 12:36:05 devpinoyLogger Entering '23878645' in the 'Credit Number' edit field
-29/10/2018 12:36:06 devpinoyLogger Entered'23878645' in the 'Credit Number' edit field
-29/10/2018 12:36:06 devpinoyLogger Clicking on 'Buy Flights'
-29/10/2018 12:36:07 devpinoyLogger Clicked on 'Buy Flights'
-29/10/2018 12:36:07 devpinoyLogger Verifying text 'itinerary has been booked!' on web page...
-29/10/2018 12:36:07 devpinoyLogger Verified text 'itinerary has been booked!' on web page...
-29/10/2018 12:36:19 devpinoyLogger Launching Application : http://newtours.demoaut.com
-29/10/2018 12:36:22 devpinoyLogger Launched Application : http://newtours.demoaut.com
-29/10/2018 12:36:22 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
-29/10/2018 12:36:22 devpinoyLogger Entered'mercury' in the 'UserName' edit field
-29/10/2018 12:36:22 devpinoyLogger Entering 'mercury' in the 'Password' edit field
-29/10/2018 12:36:23 devpinoyLogger Entered'mercury' in the 'Password' edit field
-29/10/2018 12:36:23 devpinoyLogger Clicking on 'Sign-On'
-29/10/2018 12:36:29 devpinoyLogger Clicked on 'Sign-On'
-29/10/2018 12:36:29 devpinoyLogger Clicking on 'One Way'
-29/10/2018 12:36:59 devpinoyLogger Exception occurred while clicking on 'One Way' : Unable to locate element: //input[@name='tripType'][@value='oneway']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=xpath, value=//input[@name='tripType'][@value='oneway']}
-29/10/2018 12:36:59 devpinoyLogger Selecting 'London' from 'Departure From' dropdown
-29/10/2018 12:37:29 devpinoyLogger Exception occurred while selecting 'London' from 'Departure From' : Unable to locate element: *[name='fromPort']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=fromPort}
-29/10/2018 12:37:29 devpinoyLogger Selecting 'Paris' from 'Arrival To' dropdown
-29/10/2018 12:38:00 devpinoyLogger Exception occurred while selecting 'Paris' from 'Arrival To' : Unable to locate element: *[name='toPort']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=toPort}
-29/10/2018 12:38:00 devpinoyLogger Clicking on 'Class Preference'
-29/10/2018 12:38:30 devpinoyLogger Exception occurred while clicking on 'Class Preference' : Unable to locate element: //input[@name='servClass'][@value='First']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=xpath, value=//input[@name='servClass'][@value='First']}
-29/10/2018 12:38:30 devpinoyLogger Selecting 'Blue Skies Airlines' from 'Airline Preference' dropdown
-29/10/2018 12:39:00 devpinoyLogger Exception occurred while selecting 'Blue Skies Airlines' from 'Airline Preference' : Unable to locate element: *[name='airline']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=airline}
-29/10/2018 12:39:00 devpinoyLogger Clicking on 'Find Flights'
-29/10/2018 12:39:30 devpinoyLogger Exception occurred while clicking on 'Find Flights' : Unable to locate element: *[name='findFlights']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=findFlights}
-29/10/2018 12:39:30 devpinoyLogger Clicking on 'Reserve Flights'
-29/10/2018 12:40:00 devpinoyLogger Exception occurred while clicking on 'Reserve Flights' : Unable to locate element: *[name='reserveFlights']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=reserveFlights}
-29/10/2018 12:40:00 devpinoyLogger Entering 'Rajendra' in the 'First Name' edit field
-29/10/2018 12:40:30 devpinoyLogger Exception occurred while entering 'Rajendra' in the 'First Name' edit field : Unable to locate element: *[name='passFirst0']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=passFirst0}
-29/10/2018 12:40:30 devpinoyLogger Entering 'Mahapatra' in the 'Last Name' edit field
-29/10/2018 12:41:00 devpinoyLogger Exception occurred while entering 'Mahapatra' in the 'Last Name' edit field : Unable to locate element: *[name='passLast0']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=passLast0}
-29/10/2018 12:41:00 devpinoyLogger Entering '23878645' in the 'Credit Number' edit field
-29/10/2018 12:41:30 devpinoyLogger Exception occurred while entering '23878645' in the 'Credit Number' edit field : Unable to locate element: *[name='creditnumber']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=creditnumber}
-29/10/2018 12:41:30 devpinoyLogger Clicking on 'Buy Flights'
-29/10/2018 12:42:00 devpinoyLogger Exception occurred while clicking on 'Buy Flights' : Unable to locate element: *[name='buyFlights']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13692, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 53671180-df3c-4fc9-b893-4d1a6495c078
-*** Element info: {Using=name, value=buyFlights}
-29/10/2018 12:42:00 devpinoyLogger Verifying text 'itinerary has been booked!' on web page...
+30/12/2018 20:30:22 devpinoyLogger Launching Application : http://newtours.demoaut.com
+30/12/2018 20:30:26 devpinoyLogger Launched Application : http://newtours.demoaut.com
+30/12/2018 20:30:28 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
+30/12/2018 20:30:28 devpinoyLogger Entered'mercury' in the 'UserName' edit field
+30/12/2018 20:30:28 devpinoyLogger Entering 'mercury' in the 'Password' edit field
+30/12/2018 20:30:29 devpinoyLogger Entered'mercury' in the 'Password' edit field
+30/12/2018 20:30:29 devpinoyLogger Clicking on 'Sign-On'
+30/12/2018 20:30:34 devpinoyLogger Clicked on 'Sign-On'
+30/12/2018 20:30:35 devpinoyLogger Clicking on 'One Way'
+30/12/2018 20:30:35 devpinoyLogger Clicked on 'One Way'
+30/12/2018 20:30:35 devpinoyLogger Selecting 'London' from 'Departure From' dropdown
+30/12/2018 20:30:36 devpinoyLogger Selected'London' from 'Departure From' dropdown
+30/12/2018 20:30:36 devpinoyLogger Selecting 'Paris' from 'Arrival To' dropdown
+30/12/2018 20:30:36 devpinoyLogger Selected'Paris' from 'Arrival To' dropdown
+30/12/2018 20:30:36 devpinoyLogger Clicking on 'Class Preference'
+30/12/2018 20:30:36 devpinoyLogger Clicked on 'Class Preference'
+30/12/2018 20:30:36 devpinoyLogger Selecting 'Blue Skies Airlines' from 'Airline Preference' dropdown
+30/12/2018 20:30:36 devpinoyLogger Selected'Blue Skies Airlines' from 'Airline Preference' dropdown
+30/12/2018 20:30:36 devpinoyLogger Clicking on 'Find Flights'
+30/12/2018 20:30:38 devpinoyLogger Clicked on 'Find Flights'
+30/12/2018 20:30:38 devpinoyLogger Clicking on 'Reserve Flights'
+30/12/2018 20:30:40 devpinoyLogger Clicked on 'Reserve Flights'
+30/12/2018 20:30:40 devpinoyLogger Entering 'Rajendra' in the 'First Name' edit field
+30/12/2018 20:30:40 devpinoyLogger Entered'Rajendra' in the 'First Name' edit field
+30/12/2018 20:30:40 devpinoyLogger Entering 'Mahapatra' in the 'Last Name' edit field
+30/12/2018 20:30:41 devpinoyLogger Entered'Mahapatra' in the 'Last Name' edit field
+30/12/2018 20:30:41 devpinoyLogger Entering '23878645' in the 'Credit Number' edit field
+30/12/2018 20:30:41 devpinoyLogger Entered'23878645' in the 'Credit Number' edit field
+30/12/2018 20:30:41 devpinoyLogger Clicking on 'Buy Flights'
+30/12/2018 20:30:42 devpinoyLogger Clicked on 'Buy Flights'
+30/12/2018 20:30:42 devpinoyLogger Verifying text 'itinerary has been booked!' on web page...
+30/12/2018 20:30:42 devpinoyLogger Verified text 'itinerary has been booked!' on web page...
+30/12/2018 20:31:32 devpinoyLogger Launching Application : http://newtours.demoaut.com
+30/12/2018 20:31:36 devpinoyLogger Launched Application : http://newtours.demoaut.com
+30/12/2018 20:31:37 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
+30/12/2018 20:31:37 devpinoyLogger Entered'mercury' in the 'UserName' edit field
+30/12/2018 20:31:37 devpinoyLogger Entering 'mercury' in the 'Password' edit field
+30/12/2018 20:31:39 devpinoyLogger Entered'mercury' in the 'Password' edit field
+30/12/2018 20:31:39 devpinoyLogger Clicking on 'Sign-On'
+30/12/2018 20:31:45 devpinoyLogger Clicked on 'Sign-On'
+30/12/2018 20:31:45 devpinoyLogger Clicking on 'One Way'
+30/12/2018 20:31:46 devpinoyLogger Clicked on 'One Way'
+30/12/2018 20:31:46 devpinoyLogger Selecting 'London' from 'Departure From' dropdown
+30/12/2018 20:31:47 devpinoyLogger Selected'London' from 'Departure From' dropdown
+30/12/2018 20:31:47 devpinoyLogger Selecting 'Paris' from 'Arrival To' dropdown
+30/12/2018 20:31:47 devpinoyLogger Selected'Paris' from 'Arrival To' dropdown
+30/12/2018 20:31:47 devpinoyLogger Clicking on 'Class Preference'
+30/12/2018 20:31:47 devpinoyLogger Clicked on 'Class Preference'
+30/12/2018 20:31:47 devpinoyLogger Selecting 'Blue Skies Airlines' from 'Airline Preference' dropdown
+30/12/2018 20:31:48 devpinoyLogger Selected'Blue Skies Airlines' from 'Airline Preference' dropdown
+30/12/2018 20:31:48 devpinoyLogger Clicking on 'Find Flights'
+30/12/2018 20:31:50 devpinoyLogger Clicked on 'Find Flights'
+30/12/2018 20:31:50 devpinoyLogger Clicking on 'Reserve Flights'
+30/12/2018 20:31:51 devpinoyLogger Clicked on 'Reserve Flights'
+30/12/2018 20:31:51 devpinoyLogger Entering 'Rajendra' in the 'First Name' edit field
+30/12/2018 20:31:51 devpinoyLogger Entered'Rajendra' in the 'First Name' edit field
+30/12/2018 20:31:51 devpinoyLogger Entering 'Mahapatra' in the 'Last Name' edit field
+30/12/2018 20:31:52 devpinoyLogger Entered'Mahapatra' in the 'Last Name' edit field
+30/12/2018 20:31:52 devpinoyLogger Entering '23878645' in the 'Credit Number' edit field
+30/12/2018 20:31:52 devpinoyLogger Entered'23878645' in the 'Credit Number' edit field
+30/12/2018 20:31:52 devpinoyLogger Clicking on 'Buy Flights'
+30/12/2018 20:31:53 devpinoyLogger Clicked on 'Buy Flights'
+30/12/2018 20:31:53 devpinoyLogger Verifying text 'itinerary has been booked!' on web page...
+30/12/2018 20:31:53 devpinoyLogger Verified text 'itinerary has been booked!' on web page...

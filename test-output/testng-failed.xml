@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="chromeTest(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="testcases.executeTestThroughTestNg">
-        <methods>
-          <include name="testSKip"/>
-          <include name="generateReport"/>
-          <include name="setUP"/>
-          <include name="testFail"/>
-          <include name="tearDown"/>
-          <include name="startTestCase"/>
-        </methods>
-      </class> <!-- testcases.executeTestThroughTestNg -->
-    </classes>
-  </test> <!-- chromeTest(failed) -->
   <test thread-count="5" name="firefoxTest(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="testcases.executeTestThroughTestNg">
         <methods>
-          <include name="testSKip"/>
           <include name="generateReport"/>
           <include name="testLogin"/>
           <include name="setUP"/>
-          <include name="testFail"/>
           <include name="tearDown"/>
-          <include name="testBookATicket"/>
           <include name="startTestCase"/>
         </methods>
       </class> <!-- testcases.executeTestThroughTestNg -->

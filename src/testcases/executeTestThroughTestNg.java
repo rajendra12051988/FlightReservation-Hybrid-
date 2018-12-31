@@ -47,13 +47,14 @@ public class  executeTestThroughTestNg {
 	public static WebDriver driver = null;
 	ExtentReports extent;
 	ExtentTest extentLogger;
+	ExtentHtmlReporter htmlReporter;
 	String nodeURL;
 	@Parameters({"browser"})
     @BeforeTest
 	public void setUP(String browser) throws IOException {
 		// TODO Auto-generated method stub
     	allObjects = reader.getObjectRepoository();
-    	ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(new File(Constant.reportPath));
+    	htmlReporter = new ExtentHtmlReporter(new File(Constant.reportPath));
     	extent = new ExtentReports();
     	
     	extent.setSystemInfo("Project", "Flight Reservation");
